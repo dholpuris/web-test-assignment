@@ -1,0 +1,17 @@
+# system files
+.bash_history
+.bashrc
+.profile
+.viminfo
+.lesshst
+.ssh/
+.snap/
+.docker/
+*.swp
+
+# python cache
+__pycache__/
+*.pyc
+
+# env
+.envmmmmmmm6
