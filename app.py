@@ -6,4 +6,6 @@ def root():
 @app.route{"/health"}
 def health():
     return {"status": "UP"}, 200
-@app.route{"READY"}, 200
+@app.route{"/ready"}
+def ready():
+    return {"status": "READY"}, 200
